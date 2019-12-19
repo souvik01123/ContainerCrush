@@ -1,4 +1,3 @@
-FROM tomcat:8.0.43-jre8
 ADD mavenwebapp.jar /usr/local/tomcat/webapps/
 ADD server.xml /usr/local/tomcat/conf/
 EXPOSE 8080
